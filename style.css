@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'n-font';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'n-font', sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.click {
+  color: rgb(100, 35, 140);
+  cursor: pointer;
+}
+.memo {
+  color: gray;
+}
+
+.o {
+  color: greenyellow;
+}
+
+.x {
+  color: red;
+}
+
+#admin {
+  color: orange;
+  background-color: darkblue;
+}
+
+#guide {
+  color: white;
+  background-color: greenyellow;
+}
+
+#user {
+  color: white;
+  background: gray;
+}
+
+#sky {
+  color: white;
+  background: skyblue;
+}
+
+#cloud {
+  color: rgb(155, 216, 236);
+  background: white;
+}
