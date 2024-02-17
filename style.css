@@ -1,56 +1,70 @@
-@font-face {
-  font-family: 'n-font';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff')
-    format('woff');
-  font-weight: normal;
-  font-style: normal;
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
 }
 
-body {
-  font-family: 'n-font', sans-serif;
+#title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#title h1 {
+  color: #333;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+div {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 30px;
 }
 
 h1 {
-  font-size: 50px;
+  color: #555;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #777;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.memo {
+  color: #999;
+  font-style: italic;
 }
 
 .click {
-  color: rgb(100, 35, 140);
+  color: #007bff;
   cursor: pointer;
 }
-.memo {
-  color: gray;
-}
 
-.o {
-  color: greenyellow;
-}
-
-.x {
-  color: red;
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
 }
 
 #admin {
   color: orange;
-  background-color: darkblue;
 }
 
 #guide {
-  color: white;
-  background-color: greenyellow;
-}
-
-#user {
-  color: white;
-  background: gray;
+  color: #007bff;
 }
 
 #sky {
-  color: white;
-  background: skyblue;
+  color: skyblue;
 }
 
 #cloud {
-  color: rgb(155, 216, 236);
-  background: white;
+  color: white;
+  background: skyblue;
 }
